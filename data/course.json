@@ -1,0 +1,1376 @@
+{
+  "version": "1.0.0",
+  "title": "Grammar Lab · 高中英语语法实验室",
+  "modules": [
+    {
+      "id": "parts",
+      "title": "词性与句子成分",
+      "group": "基础",
+      "summary": "先认清词在句子里做什么。",
+      "rule": "词性是词的类别，句子成分是它在具体句子中的作用。同一个词可能有不同词性，不能脱离语境判断。",
+      "example": [
+        {
+          "text": "The ",
+          "role": "main"
+        },
+        {
+          "text": "careful",
+          "role": "focus"
+        },
+        {
+          "text": " student reads ",
+          "role": "main"
+        },
+        {
+          "text": "quietly",
+          "role": "focus"
+        },
+        {
+          "text": ".",
+          "role": "main"
+        }
+      ],
+      "translation": "这位细心的学生安静地读书。",
+      "analysis": "careful 是形容词，修饰 student，作定语；quietly 是副词，修饰 reads，作状语。",
+      "steps": [
+        "找句子的谓语动词。",
+        "看目标词修饰谁、处于什么位置。",
+        "结合语义确定词性和成分。"
+      ],
+      "pitfall": "不要把“形容词”等同于“表语”：形容词也可以作定语。",
+      "guide": [
+        {
+          "term": "名词 noun",
+          "detail": "表示人、事物或抽象概念，常作主语、宾语等。",
+          "example": "The student enjoys music. / student、music"
+        },
+        {
+          "term": "代词 pronoun",
+          "detail": "指代人或事物等；注意主格、宾格和所有格的区别。",
+          "example": "She helped him. / She、him"
+        },
+        {
+          "term": "动词 verb",
+          "detail": "表示动作、状态等；作谓语时随时态、主语等变化。",
+          "example": "He studies every day. / studies"
+        },
+        {
+          "term": "形容词 adjective",
+          "detail": "常修饰名词或作表语，说明性质和状态。",
+          "example": "a useful book; The book is useful. / useful"
+        },
+        {
+          "term": "副词 adverb",
+          "detail": "可修饰动词、形容词、副词或整个句子，并非都以 -ly 结尾。",
+          "example": "She runs fast. / fast"
+        },
+        {
+          "term": "介词 preposition",
+          "detail": "与后面的名词性成分构成介词短语，表达时间、地点等关系。",
+          "example": "The keys are on the desk. / on"
+        },
+        {
+          "term": "连词 conjunction",
+          "detail": "连接词、短语或分句；注意并列关系与从属关系。",
+          "example": "I stayed because it rained. / because"
+        },
+        {
+          "term": "冠词 article",
+          "detail": "a、an、the，用于名词前帮助确定所指。冠词也常归入限定词。",
+          "example": "a book; an apple; the sun"
+        },
+        {
+          "term": "数词 numeral",
+          "detail": "常见课堂分类中包括基数词、序数词，可表达数量或顺序。",
+          "example": "three books; the first lesson"
+        },
+        {
+          "term": "感叹词 interjection",
+          "detail": "表达情感或反应，常相对独立。",
+          "example": "Wow! That is amazing."
+        }
+      ]
+    },
+    {
+      "id": "patterns",
+      "title": "五种基本句型",
+      "group": "基础",
+      "summary": "从主干出发，再读懂长句。",
+      "rule": "常用五种基本句型：主谓（SV）、主系表（SVP）、主谓宾（SVO）、主谓双宾（SVOO）、主谓宾补（SVOC）。状语和定语可扩展主干。",
+      "example": [
+        {
+          "text": "We ",
+          "role": "main"
+        },
+        {
+          "text": "found",
+          "role": "focus"
+        },
+        {
+          "text": " the story ",
+          "role": "main"
+        },
+        {
+          "text": "interesting",
+          "role": "focus"
+        },
+        {
+          "text": ".",
+          "role": "main"
+        }
+      ],
+      "translation": "我们发现这个故事很有趣。",
+      "analysis": "We 为主语，found 为谓语，the story 为宾语，interesting 为宾语补足语，构成 SVOC。",
+      "steps": [
+        "找主语和谓语。",
+        "判断动词后是否需要宾语或表语。",
+        "区分两个宾语和“宾语 + 对它的说明”。"
+      ],
+      "pitfall": "双宾语中的两个对象不是描述关系；宾补则补充说明宾语。",
+      "guide": [
+        {
+          "term": "SV · 主语 + 谓语",
+          "detail": "谓语是不及物动词，后面不需要宾语；可以有状语。",
+          "example": "Birds fly. / Birds fly in the sky."
+        },
+        {
+          "term": "SVP · 主语 + 系动词 + 表语",
+          "detail": "表语说明主语的身份、性质或状态。",
+          "example": "She is a teacher. / The soup tastes good."
+        },
+        {
+          "term": "SVO · 主语 + 谓语 + 宾语",
+          "detail": "及物动词后接宾语。",
+          "example": "I like music."
+        },
+        {
+          "term": "SVOO · 主语 + 谓语 + 间接宾语 + 直接宾语",
+          "detail": "常表示“给某人某物”；两个宾语不是描述关系。",
+          "example": "He gave me a book."
+        },
+        {
+          "term": "SVOC · 主语 + 谓语 + 宾语 + 宾补",
+          "detail": "宾补补充说明宾语；二者具有语义上的描述关系。",
+          "example": "We found the story interesting."
+        }
+      ]
+    },
+    {
+      "id": "relative",
+      "title": "限定性定语从句",
+      "group": "定语从句",
+      "summary": "看先行词，也看从句缺什么。",
+      "rule": "定语从句修饰先行词。关系代词 who/whom/which/that 等在从句中作主语或宾语；whose 表所属。关系副词 where/when/why 在从句中作状语。",
+      "example": [
+        {
+          "text": "This is the library ",
+          "role": "main"
+        },
+        {
+          "text": "where",
+          "role": "link"
+        },
+        {
+          "text": " I study after school",
+          "role": "clause"
+        },
+        {
+          "text": ".",
+          "role": "main"
+        }
+      ],
+      "translation": "这是我放学后学习的图书馆。",
+      "analysis": "where I study after school 修饰 the library；I study 主干完整，where 作地点状语，相当于 in which。",
+      "steps": [
+        "圈出被修饰的先行词。",
+        "检查从句缺主语、宾语、定语还是状语。",
+        "选择与成分及语义匹配的关系词。"
+      ],
+      "pitfall": "先行词是地点不等于必选 where：若从句缺宾语，可能需要 which 或 that。"
+    },
+    {
+      "id": "relative-extra",
+      "title": "非限定与介词结构",
+      "group": "定语从句",
+      "summary": "逗号、介词，是重要的结构信号。",
+      "rule": "非限定性定语从句补充信息，用逗号隔开，不用 that，关系词不能省略。介词前置时，指物常用 which，指人常用 whom。",
+      "example": [
+        {
+          "text": "Our school, ",
+          "role": "main"
+        },
+        {
+          "text": "which",
+          "role": "link"
+        },
+        {
+          "text": " opened in 1998",
+          "role": "clause"
+        },
+        {
+          "text": ", has a large library.",
+          "role": "main"
+        }
+      ],
+      "translation": "我们学校于1998年建校，有一座大图书馆。",
+      "analysis": "which opened in 1998 是补充说明；which 指 Our school，并在从句中作主语。",
+      "steps": [
+        "观察是否用逗号隔开。",
+        "确认先行词及关系词在从句中的作用。",
+        "有前置介词时检查介词后的关系词。"
+      ],
+      "pitfall": "不能因为先行词指物，就在任何位置都用 that。"
+    },
+    {
+      "id": "subject",
+      "title": "主语从句",
+      "group": "名词性从句",
+      "summary": "把一个小句放进主语的位置。",
+      "rule": "主语从句整体作主语。that 引出完整陈述内容；what 在从句中充当成分。常用 it 作形式主语，把较长的主语从句后置。",
+      "example": [
+        {
+          "text": "What",
+          "role": "link"
+        },
+        {
+          "text": " she said",
+          "role": "clause"
+        },
+        {
+          "text": " surprised everyone.",
+          "role": "main"
+        }
+      ],
+      "translation": "她所说的话让所有人都吃了一惊。",
+      "analysis": "What she said 整体是 surprised 的主语；what 同时作 said 的宾语，相当于“她所说的事情”。",
+      "steps": [
+        "找主句谓语。",
+        "确定它前面的整个小句是否作主语。",
+        "判断从句内部是否缺成分。"
+      ],
+      "pitfall": "不要只看到从句位于句首就判断；句首的时间状语从句也很常见。"
+    },
+    {
+      "id": "object",
+      "title": "宾语从句",
+      "group": "名词性从句",
+      "summary": "注意连接词、语序和语境。",
+      "rule": "宾语从句作动词或介词的宾语。间接疑问句通常使用陈述语序；that 引出陈述内容；if/whether 可在许多动词后的宾语从句中表示“是否”。",
+      "example": [
+        {
+          "text": "I wonder ",
+          "role": "main"
+        },
+        {
+          "text": "where",
+          "role": "link"
+        },
+        {
+          "text": " she lives",
+          "role": "clause"
+        },
+        {
+          "text": ".",
+          "role": "main"
+        }
+      ],
+      "translation": "我想知道她住在哪里。",
+      "analysis": "where she lives 作 wonder 的宾语；从句中是 she lives 的陈述语序，不是 does she live。",
+      "steps": [
+        "找主句动词或介词。",
+        "看其后小句是否充当宾语。",
+        "检查连接词和主语、谓语顺序。"
+      ],
+      "pitfall": "不要把主将从现套到所有宾语从句。连接词本身作主语时也不要机械移动词序。"
+    },
+    {
+      "id": "predicative",
+      "title": "表语从句",
+      "group": "名词性从句",
+      "summary": "在系动词后说明主语的内容。",
+      "rule": "表语从句位于系动词后，说明主语的内容或性质。选择连接词时同时考虑语义和从句成分。",
+      "example": [
+        {
+          "text": "The question is ",
+          "role": "main"
+        },
+        {
+          "text": "whether",
+          "role": "link"
+        },
+        {
+          "text": " we have enough time",
+          "role": "clause"
+        },
+        {
+          "text": ".",
+          "role": "main"
+        }
+      ],
+      "translation": "问题是我们是否有足够的时间。",
+      "analysis": "whether we have enough time 位于系动词 is 后，说明 The question，是表语从句。",
+      "steps": [
+        "找主句主语和系动词。",
+        "判断后面的小句是否说明主语。",
+        "结合“事实、是否、什么”等意义选词。"
+      ],
+      "pitfall": "不能把 is 后的所有内容都当成宾语；系动词后的成分通常是表语。"
+    },
+    {
+      "id": "appositive",
+      "title": "同位语从句与定语从句",
+      "group": "名词性从句",
+      "summary": "“说明内容”与“修饰限定”要分清。",
+      "rule": "同位语从句常说明 fact、news、idea 等抽象名词的具体内容。that 在这种陈述性同位语从句中不充当成分；定语从句中的关系代词通常在从句中承担成分。",
+      "example": [
+        {
+          "text": "The news ",
+          "role": "main"
+        },
+        {
+          "text": "that",
+          "role": "link"
+        },
+        {
+          "text": " our team had won",
+          "role": "clause"
+        },
+        {
+          "text": " made us happy.",
+          "role": "main"
+        }
+      ],
+      "translation": "我们队获胜的消息让我们很高兴。",
+      "analysis": "that our team had won 说明 news 的内容；从句主干 our team had won 完整。整个主语为 The news ...，谓语为 made。",
+      "steps": [
+        "看名词后的从句是否解释“什么内容”。",
+        "检查连接词是否在从句中充当成分。",
+        "与修饰先行词的定语从句对照。"
+      ],
+      "pitfall": "不是所有“名词 + that”都是同位语从句，要检查从句功能。"
+    },
+    {
+      "id": "time",
+      "title": "时间状语从句",
+      "group": "状语从句",
+      "summary": "沿时间线理解动作。",
+      "rule": "when、while、before、after、until、as soon as 等可引导时间状语从句。在表达将来的常见时间从句中通常用一般现在时表示将来。",
+      "example": [
+        {
+          "text": "I will call you ",
+          "role": "main"
+        },
+        {
+          "text": "when",
+          "role": "link"
+        },
+        {
+          "text": " I arrive",
+          "role": "clause"
+        },
+        {
+          "text": ".",
+          "role": "main"
+        }
+      ],
+      "translation": "我到达时会给你打电话。",
+      "analysis": "主句 will call 表将来，when 从句用 arrive 表将来的时间，不用 will arrive。",
+      "steps": [
+        "看从句是否说明动作发生的时间。",
+        "选择与先后、持续或起点匹配的连词。",
+        "若表示将来，检查时间从句的时态。"
+      ],
+      "pitfall": "when 也能引导宾语从句；“I wonder when he will arrive”中的 will 正确。"
+    },
+    {
+      "id": "condition",
+      "title": "条件状语从句",
+      "group": "状语从句",
+      "summary": "区分“如果”与“是否”。",
+      "rule": "if 表“如果”，unless 常相当于 if ... not。在常见的将来真实条件句中，主句用将来表达，从句用一般现在时。虚拟条件另有时态规则。",
+      "example": [
+        {
+          "text": "If",
+          "role": "link"
+        },
+        {
+          "text": " it rains tomorrow",
+          "role": "clause"
+        },
+        {
+          "text": ", we will stay at home.",
+          "role": "main"
+        }
+      ],
+      "translation": "如果明天下雨，我们就待在家里。",
+      "analysis": "If it rains tomorrow 为真实条件从句，rains 用一般现在时；主句用 will stay。",
+      "steps": [
+        "判断从句表达条件还是不确定内容。",
+        "理解 if 与 unless 的肯定、否定关系。",
+        "根据真实或虚拟语境检查时态。"
+      ],
+      "pitfall": "if 不总表示“如果”：I wonder if ... 中常表示“是否”，引导宾语从句。"
+    },
+    {
+      "id": "reason",
+      "title": "原因状语从句",
+      "group": "状语从句",
+      "summary": "连接原因与结果。",
+      "rule": "because 常直接说明原因，since、as 在合适语境中也可引出原因。because 后接从句，because of 后接名词性成分。",
+      "example": [
+        {
+          "text": "We stayed inside ",
+          "role": "main"
+        },
+        {
+          "text": "because",
+          "role": "link"
+        },
+        {
+          "text": " it was raining",
+          "role": "clause"
+        },
+        {
+          "text": ".",
+          "role": "main"
+        }
+      ],
+      "translation": "因为正在下雨，我们待在室内。",
+      "analysis": "because it was raining 说明 stayed inside 的原因；it was raining 是一个完整小句。",
+      "steps": [
+        "找主句所陈述的结果。",
+        "确认后面表达原因还是目的。",
+        "区分从句和名词短语。"
+      ],
+      "pitfall": "不要在连接同一对分句时同时使用 because 和 so；because of 后不直接接完整限定小句。"
+    },
+    {
+      "id": "concession",
+      "title": "让步状语从句",
+      "group": "状语从句",
+      "summary": "读懂“尽管如此”的转折。",
+      "rule": "although、though、even though 等表示让步。连接同一对分句时 although/though 不与 but 同用；主句可用 still 或 yet 等副词表达转折。",
+      "example": [
+        {
+          "text": "Although",
+          "role": "link"
+        },
+        {
+          "text": " the task was difficult",
+          "role": "clause"
+        },
+        {
+          "text": ", we finished it.",
+          "role": "main"
+        }
+      ],
+      "translation": "尽管任务很难，我们还是完成了。",
+      "analysis": "Although 从句承认困难，主句表达与通常预期相反的结果。",
+      "steps": [
+        "找出“尽管……仍然……”的逻辑。",
+        "确认两部分各自的主谓结构。",
+        "检查是否重复使用 although 与 but。"
+      ],
+      "pitfall": "中文“虽然……但是……”不能逐词译成 although ... but ...。"
+    },
+    {
+      "id": "purpose-result",
+      "title": "目的与结果状语从句",
+      "group": "状语从句",
+      "summary": "区分“为了”与“以至于”。",
+      "rule": "so that 可在相应语境中表示目的；so + 形容词/副词 + that、such + 名词短语 + that 常表示结果。so that 的具体功能仍要结合上下文。",
+      "example": [
+        {
+          "text": "She spoke slowly ",
+          "role": "main"
+        },
+        {
+          "text": "so that",
+          "role": "link"
+        },
+        {
+          "text": " everyone could understand her",
+          "role": "clause"
+        },
+        {
+          "text": ".",
+          "role": "main"
+        }
+      ],
+      "translation": "她说得很慢，以便大家都能听懂。",
+      "analysis": "so that ... 表示说慢一点的目的；could 有助于体现目的意义。",
+      "steps": [
+        "判断后半句是预期目标还是已经发生的结果。",
+        "看 so 后接形容词/副词还是 such 后接名词短语。",
+        "结合情态动词和语境确认关系。"
+      ],
+      "pitfall": "不要把所有 so that 都当目的，也不要在 such 后丢掉单数可数名词所需的冠词。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "parts-1",
+      "module": "parts",
+      "type": "choice",
+      "level": 1,
+      "prompt": "carefully 在句中的词性是什么？",
+      "sentence": "Lily checked her answers carefully.",
+      "answers": [
+        "副词"
+      ],
+      "options": [
+        "形容词",
+        "副词",
+        "名词",
+        "介词"
+      ],
+      "hint": "看它修饰的是人、物，还是动作。",
+      "explanation": "carefully 修饰 checked 这一动作，是副词，作状语。形容词通常修饰名词，不能仅因译成“仔细的”就选形容词。"
+    },
+    {
+      "id": "parts-2",
+      "module": "parts",
+      "type": "fill",
+      "level": 1,
+      "prompt": "用括号内词的适当形式填空。",
+      "sentence": "The instructions are very ___ (help).",
+      "answers": [
+        "helpful"
+      ],
+      "hint": "系动词 are 后描述主语的性质。",
+      "explanation": "are 后需要形容词作表语，help 的形容词是 helpful。helpfully 是副词，不能在此描述 instructions 的性质。"
+    },
+    {
+      "id": "parts-3",
+      "module": "parts",
+      "type": "choice",
+      "level": 2,
+      "prompt": "画线部分（reading）的词性是什么？",
+      "sentence": "Reading is my favorite activity.",
+      "answers": [
+        "名词性用法的动名词"
+      ],
+      "options": [
+        "现在分词作定语",
+        "谓语动词",
+        "名词性用法的动名词",
+        "副词"
+      ],
+      "hint": "先找全句谓语 is，再看 Reading 的位置。",
+      "explanation": "Reading 在这里是动名词，整体作主语；is 才是谓语。不能因带 -ing 就一律判断为进行时。"
+    },
+    {
+      "id": "parts-4",
+      "module": "parts",
+      "type": "repair",
+      "level": 2,
+      "prompt": "句中只有一处词形错误；改正后输入完整句子。",
+      "sentence": "She speaks English fluent.",
+      "answers": [
+        "She speaks English fluently."
+      ],
+      "hint": "描述“说得怎么样”，需要什么词性？",
+      "explanation": "用副词 fluently 修饰 speaks，不能用形容词 fluent。正确句为 She speaks English fluently."
+    },
+    {
+      "id": "patterns-1",
+      "module": "patterns",
+      "type": "choice",
+      "level": 1,
+      "prompt": "选择句子的基本句型。",
+      "sentence": "The baby slept.",
+      "answers": [
+        "主谓 SV"
+      ],
+      "options": [
+        "主谓 SV",
+        "主谓宾 SVO",
+        "主系表 SVP",
+        "主谓宾补 SVOC"
+      ],
+      "hint": "slept 后是否有宾语？",
+      "explanation": "The baby 是主语，slept 是不及物动词，构成 SV；没有宾语或表语。"
+    },
+    {
+      "id": "patterns-2",
+      "module": "patterns",
+      "type": "choice",
+      "level": 1,
+      "prompt": "选择句子的基本句型。",
+      "sentence": "The soup tastes delicious.",
+      "answers": [
+        "主系表 SVP"
+      ],
+      "options": [
+        "主谓宾 SVO",
+        "主系表 SVP",
+        "主谓双宾 SVOO",
+        "主谓 SV"
+      ],
+      "hint": "tastes 在这里表示某种性质。",
+      "explanation": "tastes 是感官系动词，delicious 是形容词表语，说明 soup 的性质，不是宾语。"
+    },
+    {
+      "id": "patterns-3",
+      "module": "patterns",
+      "type": "choice",
+      "level": 2,
+      "prompt": "选择句子的基本句型。",
+      "sentence": "My uncle gave me a dictionary.",
+      "answers": [
+        "主谓双宾 SVOO"
+      ],
+      "options": [
+        "主谓宾补 SVOC",
+        "主谓双宾 SVOO",
+        "主系表 SVP",
+        "主谓 SV"
+      ],
+      "hint": "me 和 a dictionary 分别是谁、什么？",
+      "explanation": "me 是间接宾语，a dictionary 是直接宾语，构成 SVOO。dictionary 不是用来描述 me 的宾补。"
+    },
+    {
+      "id": "patterns-4",
+      "module": "patterns",
+      "type": "choice",
+      "level": 3,
+      "prompt": "主干中的宾语补足语是什么？",
+      "sentence": "We found the classroom empty after lunch.",
+      "answers": [
+        "empty"
+      ],
+      "options": [
+        "the classroom",
+        "empty",
+        "after lunch",
+        "We"
+      ],
+      "hint": "哪个成分说明宾语 the classroom 的状态？",
+      "explanation": "empty 描述 classroom 的状态，作宾补。after lunch 是时间状语，不属于 SVOC 中的 C。"
+    },
+    {
+      "id": "relative-1",
+      "module": "relative",
+      "type": "choice",
+      "level": 1,
+      "prompt": "选择最合适的关系词。",
+      "sentence": "The student ___ won the prize is in our class.",
+      "answers": [
+        "who"
+      ],
+      "options": [
+        "who",
+        "where",
+        "when",
+        "whose"
+      ],
+      "hint": "从句中谁执行 won？",
+      "explanation": "从句缺主语，先行词 student 指人，用 who。where/when 作状语；whose 后通常还需名词。"
+    },
+    {
+      "id": "relative-2",
+      "module": "relative",
+      "type": "fill",
+      "level": 2,
+      "prompt": "填入一个关系代词，不省略。",
+      "sentence": "This is the museum ___ we visited yesterday.",
+      "answers": [
+        "which",
+        "that"
+      ],
+      "hint": "visited 后缺什么成分？",
+      "explanation": "museum 虽是地点，但 visited 缺宾语，故用 which 或 that；where 只能作状语。限定性从句中此处关系词也可省略，但本题要求填词。"
+    },
+    {
+      "id": "relative-3",
+      "module": "relative",
+      "type": "fill",
+      "level": 2,
+      "prompt": "填入一个关系词。",
+      "sentence": "I know a girl ___ father is a pilot.",
+      "answers": [
+        "whose"
+      ],
+      "hint": "空后 father 与 girl 是什么关系？",
+      "explanation": "whose 表所属，whose father 作从句主语，意为“她的父亲”。who 不能直接限定 father。"
+    },
+    {
+      "id": "relative-4",
+      "module": "relative",
+      "type": "choice",
+      "level": 3,
+      "prompt": "此处需要地点状语，选择正确答案。",
+      "sentence": "This is the room ___ we held the meeting.",
+      "answers": [
+        "where"
+      ],
+      "options": [
+        "which",
+        "that",
+        "where",
+        "what"
+      ],
+      "hint": "we held the meeting 是否已经有宾语？",
+      "explanation": "从句中 the meeting 已作 held 的宾语，主干完整；用 where 作地点状语，相当于 in which。which/that 不能单独表达此处的“在房间里”。"
+    },
+    {
+      "id": "relative-extra-1",
+      "module": "relative-extra",
+      "type": "choice",
+      "level": 1,
+      "prompt": "选择合适的关系词。",
+      "sentence": "My bike, ___ I bought last year, is blue.",
+      "answers": [
+        "which"
+      ],
+      "options": [
+        "that",
+        "which",
+        "what",
+        "where"
+      ],
+      "hint": "注意逗号和 bought 后的宾语空位。",
+      "explanation": "这是非限定性定语从句，指物且缺宾语，用 which；不能用 that，也不能省略关系词。"
+    },
+    {
+      "id": "relative-extra-2",
+      "module": "relative-extra",
+      "type": "choice",
+      "level": 2,
+      "prompt": "选择合适的关系词。",
+      "sentence": "The topic about ___ we talked was interesting.",
+      "answers": [
+        "which"
+      ],
+      "options": [
+        "that",
+        "what",
+        "which",
+        "where"
+      ],
+      "hint": "介词 about 已经放在关系词前。",
+      "explanation": "介词前置且先行词 topic 指物，用 about which。这里不能用 about that；what 不接这样的先行词。"
+    },
+    {
+      "id": "relative-extra-3",
+      "module": "relative-extra",
+      "type": "fill",
+      "level": 2,
+      "prompt": "填入一个关系代词。",
+      "sentence": "The teacher to ___ I wrote replied quickly.",
+      "answers": [
+        "whom"
+      ],
+      "hint": "介词 to 后需要指人的关系代词。",
+      "explanation": "to 前置，用 whom 作介词宾语；正式的“介词 + 关系代词”结构中不能用 that。"
+    },
+    {
+      "id": "relative-extra-4",
+      "module": "relative-extra",
+      "type": "repair",
+      "level": 3,
+      "prompt": "只改一个关系词；输入完整句子。",
+      "sentence": "My brother, that lives in Beijing, is a doctor.",
+      "answers": [
+        "My brother, who lives in Beijing, is a doctor."
+      ],
+      "hint": "非限定性从句能用 that 吗？",
+      "explanation": "用 who 替换 that。逗号中的从句补充说明 brother，关系词指人并作主语；非限定性从句不用 that。"
+    },
+    {
+      "id": "subject-1",
+      "module": "subject",
+      "type": "choice",
+      "level": 1,
+      "prompt": "What he needs 在全句中是什么从句？",
+      "sentence": "What he needs is more time.",
+      "answers": [
+        "主语从句"
+      ],
+      "options": [
+        "宾语从句",
+        "主语从句",
+        "定语从句",
+        "条件状语从句"
+      ],
+      "hint": "主句谓语是 is。",
+      "explanation": "What he needs 整体作 is 的主语，因此是主语从句；what 又在从句中作 needs 的宾语。"
+    },
+    {
+      "id": "subject-2",
+      "module": "subject",
+      "type": "fill",
+      "level": 2,
+      "prompt": "填入一个连接词。",
+      "sentence": "___ she will join us or not is still unknown.",
+      "answers": [
+        "Whether"
+      ],
+      "hint": "句首主语从句表示“是否”。",
+      "explanation": "用 Whether 引导位于句首、表示“是否”的主语从句。if 一般不用在这种句首主语从句中；that 不表示是否。"
+    },
+    {
+      "id": "subject-3",
+      "module": "subject",
+      "type": "choice",
+      "level": 2,
+      "prompt": "选择正确答案。",
+      "sentence": "___ he said at the meeting was useful.",
+      "answers": [
+        "What"
+      ],
+      "options": [
+        "That",
+        "What",
+        "Whether",
+        "If"
+      ],
+      "hint": "said 后的宾语在哪里？",
+      "explanation": "said 缺宾语，What 在从句中作宾语，整个 What he said at the meeting 作主语。that 不充当从句成分。"
+    },
+    {
+      "id": "subject-4",
+      "module": "subject",
+      "type": "fill",
+      "level": 3,
+      "prompt": "填入引出陈述内容的连接词。",
+      "sentence": "It is clear ___ the plan needs more work.",
+      "answers": [
+        "that"
+      ],
+      "hint": "It 是形式主语；后面陈述一件明确的事情。",
+      "explanation": "that 引出完整陈述内容，后置从句是真正的主语，It 为形式主语。what 会要求从句内部有相应的成分空位。"
+    },
+    {
+      "id": "object-1",
+      "module": "object",
+      "type": "choice",
+      "level": 1,
+      "prompt": "选择语序正确的宾语从句。",
+      "sentence": "Do you know ___?",
+      "answers": [
+        "where she lives"
+      ],
+      "options": [
+        "where does she live",
+        "where she lives",
+        "where lives she",
+        "where is she live"
+      ],
+      "hint": "从句不是直接提问。",
+      "explanation": "宾语从句使用 where + 主语 she + 谓语 lives，不使用疑问句中的 does she live。"
+    },
+    {
+      "id": "object-2",
+      "module": "object",
+      "type": "fill",
+      "level": 2,
+      "prompt": "填入表示“是否”的连接词。",
+      "sentence": "I wonder ___ he will come tomorrow.",
+      "answers": [
+        "if",
+        "whether"
+      ],
+      "hint": "wonder 后接一般疑问意义的小句。",
+      "explanation": "if 和 whether 在这个动词后的宾语从句中均可表示“是否”。不能一概说宾语从句只能用 whether。"
+    },
+    {
+      "id": "object-3",
+      "module": "object",
+      "type": "choice",
+      "level": 2,
+      "prompt": "选择正确答案。",
+      "sentence": "I am interested in ___ she will accept the offer.",
+      "answers": [
+        "whether"
+      ],
+      "options": [
+        "if",
+        "whether",
+        "that",
+        "what"
+      ],
+      "hint": "注意空前是介词 in。",
+      "explanation": "介词 in 后的从句表示“是否”，用 whether，不用 if。that 不表达是否；what 在这里也没有可承担的成分空位。"
+    },
+    {
+      "id": "object-4",
+      "module": "object",
+      "type": "repair",
+      "level": 3,
+      "prompt": "只改从句语序；输入完整句子。",
+      "sentence": "Can you tell me where is the station?",
+      "answers": [
+        "Can you tell me where the station is?"
+      ],
+      "hint": "主句可以是问句，但宾语从句使用什么语序？",
+      "explanation": "主句 Can you tell me 是问句；其宾语从句仍用 where the station is，不能保留 where is the station 的直接疑问语序。"
+    },
+    {
+      "id": "predicative-1",
+      "module": "predicative",
+      "type": "choice",
+      "level": 1,
+      "prompt": "whether we can finish on time 是什么从句？",
+      "sentence": "The question is whether we can finish on time.",
+      "answers": [
+        "表语从句"
+      ],
+      "options": [
+        "主语从句",
+        "宾语从句",
+        "表语从句",
+        "定语从句"
+      ],
+      "hint": "看从句与系动词 is 的关系。",
+      "explanation": "从句在 is 后说明 The question 的内容，作表语；不是动词的宾语。"
+    },
+    {
+      "id": "predicative-2",
+      "module": "predicative",
+      "type": "choice",
+      "level": 2,
+      "prompt": "选择表示“是否”的连接词。",
+      "sentence": "The problem is ___ we have enough money.",
+      "answers": [
+        "whether"
+      ],
+      "options": [
+        "if",
+        "whether",
+        "what",
+        "which"
+      ],
+      "hint": "这是系动词后的表语从句。",
+      "explanation": "表示是否的表语从句用 whether，不用 if。what 和 which 不能表达本句的完整疑问内容。"
+    },
+    {
+      "id": "predicative-3",
+      "module": "predicative",
+      "type": "fill",
+      "level": 2,
+      "prompt": "填入表示“……的事情”的连接词。",
+      "sentence": "This is ___ I wanted to tell you.",
+      "answers": [
+        "what"
+      ],
+      "hint": "tell you 后缺少所讲的内容。",
+      "explanation": "what 作 tell 的直接宾语，what I wanted to tell you 整体作表语。that 不能填补 tell you 后的内容空位。"
+    },
+    {
+      "id": "predicative-4",
+      "module": "predicative",
+      "type": "choice",
+      "level": 3,
+      "prompt": "选择符合句意的词：迟到的原因是错过了公交车。",
+      "sentence": "The reason for his being late is ___ he missed the bus.",
+      "answers": [
+        "that"
+      ],
+      "options": [
+        "whether",
+        "where",
+        "that",
+        "what"
+      ],
+      "hint": "主语已明确指出“原因”，后面陈述具体内容。",
+      "explanation": "that 引出完整陈述内容，说明迟到的具体原因；whether 表是否，where 表地点，均不合指定句意；what 需充当从句成分，而本句从句主谓宾完整。"
+    },
+    {
+      "id": "appositive-1",
+      "module": "appositive",
+      "type": "choice",
+      "level": 1,
+      "prompt": "that the match was canceled 是什么从句？",
+      "sentence": "The news that the match was canceled surprised us.",
+      "answers": [
+        "同位语从句"
+      ],
+      "options": [
+        "定语从句",
+        "同位语从句",
+        "宾语从句",
+        "让步状语从句"
+      ],
+      "hint": "从句告诉我们 news 的什么内容？",
+      "explanation": "从句说明消息的具体内容，即比赛取消，因此是同位语从句；that 不作从句主语或宾语。"
+    },
+    {
+      "id": "appositive-2",
+      "module": "appositive",
+      "type": "choice",
+      "level": 2,
+      "prompt": "that I heard yesterday 是什么从句？",
+      "sentence": "The news that I heard yesterday surprised me.",
+      "answers": [
+        "定语从句"
+      ],
+      "options": [
+        "同位语从句",
+        "主语从句",
+        "定语从句",
+        "结果状语从句"
+      ],
+      "hint": "heard 缺不缺宾语？",
+      "explanation": "heard 缺宾语，that 指代先行词 news 并作 heard 的宾语，是定语从句，不是在说明 news 的具体内容。"
+    },
+    {
+      "id": "appositive-3",
+      "module": "appositive",
+      "type": "fill",
+      "level": 2,
+      "prompt": "填入引出事实内容的连接词。",
+      "sentence": "The fact ___ he passed the test pleased his parents.",
+      "answers": [
+        "that"
+      ],
+      "hint": "he passed the test 主谓宾是否完整？",
+      "explanation": "从句主谓宾完整，说明 fact 的内容，用 that，不需要 what 充当额外成分。"
+    },
+    {
+      "id": "appositive-4",
+      "module": "appositive",
+      "type": "choice",
+      "level": 3,
+      "prompt": "哪句含同位语从句？",
+      "sentence": "比较两个关于 report 的句子。",
+      "answers": [
+        "The report that the bridge was unsafe worried us."
+      ],
+      "options": [
+        "The report that I read was long.",
+        "The report that the bridge was unsafe worried us.",
+        "I read the report yesterday.",
+        "The report is on the desk."
+      ],
+      "hint": "区别“报告的内容”与“我读的那份报告”。",
+      "explanation": "the bridge was unsafe 是报告内容，that 不充当成分。第一项中 I read 缺宾语，that 指 report，属于定语从句；其余两项无从句。"
+    },
+    {
+      "id": "time-1",
+      "module": "time",
+      "type": "fill",
+      "level": 1,
+      "prompt": "用括号内动词的适当形式填空。",
+      "sentence": "I will send you a message when I ___ (arrive).",
+      "answers": [
+        "arrive"
+      ],
+      "hint": "when 引导将来的时间状语从句。",
+      "explanation": "此处 when 从句表示将来时间，用一般现在时 arrive；不用 will arrive。"
+    },
+    {
+      "id": "time-2",
+      "module": "time",
+      "type": "choice",
+      "level": 2,
+      "prompt": "按句意选词：我会一直等到你回来。",
+      "sentence": "I will wait here ___ you come back.",
+      "answers": [
+        "until"
+      ],
+      "options": [
+        "because",
+        "although",
+        "until",
+        "unless"
+      ],
+      "hint": "wait 是持续动作，连接词表示终点。",
+      "explanation": "until 意为直到……，说明等待持续到你回来。unless 表“除非”，不表达这一时间终点。"
+    },
+    {
+      "id": "time-3",
+      "module": "time",
+      "type": "choice",
+      "level": 2,
+      "prompt": "为什么这里可以用 will arrive？",
+      "sentence": "I wonder when he will arrive.",
+      "answers": [
+        "when 引导宾语从句，询问到达时间"
+      ],
+      "options": [
+        "所有 when 从句都用将来时",
+        "when 引导宾语从句，询问到达时间",
+        "when 引导定语从句",
+        "will 在时间从句中永远必须出现"
+      ],
+      "hint": "when 从句在 wonder 后做什么？",
+      "explanation": "when he will arrive 作 wonder 的宾语，询问将来的到达时间；它不是修饰主句动作的时间状语从句，不能机械套用主将从现。"
+    },
+    {
+      "id": "time-4",
+      "module": "time",
+      "type": "repair",
+      "level": 3,
+      "prompt": "只改时间从句的时态；输入完整句子。",
+      "sentence": "I will call you as soon as she will return.",
+      "answers": [
+        "I will call you as soon as she returns."
+      ],
+      "hint": "as soon as 引导的从句表达将来时间。",
+      "explanation": "as soon as 时间状语从句用一般现在时；主语 she 是第三人称单数，return 改为 returns。"
+    },
+    {
+      "id": "condition-1",
+      "module": "condition",
+      "type": "fill",
+      "level": 1,
+      "prompt": "用括号内动词的适当形式填空。",
+      "sentence": "If it ___ (rain) tomorrow, we will stay indoors.",
+      "answers": [
+        "rains"
+      ],
+      "hint": "真实条件，且主语为 it。",
+      "explanation": "将来的真实条件从句用一般现在时；it 后用 rains，主句 will stay。"
+    },
+    {
+      "id": "condition-2",
+      "module": "condition",
+      "type": "choice",
+      "level": 2,
+      "prompt": "按句意选词：除非你快一点，否则会错过公交车。",
+      "sentence": "You will miss the bus ___ you hurry.",
+      "answers": [
+        "unless"
+      ],
+      "options": [
+        "unless",
+        "because",
+        "although",
+        "so that"
+      ],
+      "hint": "把“除非”替换成“如果不”。",
+      "explanation": "unless you hurry 相当于 if you do not hurry；用 if you hurry 会反转原意，because 也不合因果逻辑。"
+    },
+    {
+      "id": "condition-3",
+      "module": "condition",
+      "type": "choice",
+      "level": 2,
+      "prompt": "if 在此引导什么从句？",
+      "sentence": "I wonder if she knows the answer.",
+      "answers": [
+        "宾语从句"
+      ],
+      "options": [
+        "条件状语从句",
+        "宾语从句",
+        "定语从句",
+        "表语从句"
+      ],
+      "hint": "wonder 后需要的是条件还是疑问内容？",
+      "explanation": "if 表是否，整个从句作 wonder 的宾语，不是提出条件。不能仅看 if 就选条件状语从句。"
+    },
+    {
+      "id": "condition-4",
+      "module": "condition",
+      "type": "repair",
+      "level": 3,
+      "prompt": "只改条件从句时态；输入完整句子。",
+      "sentence": "If he will study hard, he will pass the exam.",
+      "answers": [
+        "If he studies hard, he will pass the exam."
+      ],
+      "hint": "这里 will 只表示将来，没有“愿意”的特殊含义。",
+      "explanation": "常见真实条件中，用 If he studies hard；第三人称单数 studies。这里没有表达意愿，故不保留从句中的 will。"
+    },
+    {
+      "id": "reason-1",
+      "module": "reason",
+      "type": "choice",
+      "level": 1,
+      "prompt": "按句意选择：因为生病，他待在家里。",
+      "sentence": "He stayed at home ___ he was ill.",
+      "answers": [
+        "because"
+      ],
+      "options": [
+        "because",
+        "although",
+        "unless",
+        "until"
+      ],
+      "hint": "后面说明待在家里的原因。",
+      "explanation": "because 引导原因状语从句；although 表让步，unless 表条件，until 表时间终点，均不合本题语义。"
+    },
+    {
+      "id": "reason-2",
+      "module": "reason",
+      "type": "fill",
+      "level": 2,
+      "prompt": "用 because 或 because of 填空。",
+      "sentence": "The match was canceled ___ the heavy rain.",
+      "answers": [
+        "because of"
+      ],
+      "hint": "空后是名词短语还是完整小句？",
+      "explanation": "the heavy rain 是名词短语，用 because of。because 后通常接带主谓结构的从句。"
+    },
+    {
+      "id": "reason-3",
+      "module": "reason",
+      "type": "choice",
+      "level": 2,
+      "prompt": "哪一句语法正确？",
+      "sentence": "选择一个完整规范的句子。",
+      "answers": [
+        "Because it was late, we went home."
+      ],
+      "options": [
+        "Because it was late, so we went home.",
+        "Because of it was late, we went home.",
+        "Because it was late, we went home.",
+        "Because late, we went home."
+      ],
+      "hint": "检查连词重复和 because 后的结构。",
+      "explanation": "Because it was late 是完整原因从句，主句不再加 so。because of 不能在此直接接 it was late；Because late 缺少主谓结构。"
+    },
+    {
+      "id": "reason-4",
+      "module": "reason",
+      "type": "choice",
+      "level": 3,
+      "prompt": "此处 since 的逻辑作用是什么？",
+      "sentence": "Since everyone is here, let us begin.",
+      "answers": [
+        "说明原因：既然大家都到了"
+      ],
+      "options": [
+        "表示起始时间",
+        "说明原因：既然大家都到了",
+        "表示目的",
+        "修饰 everyone 的定语"
+      ],
+      "hint": "后面的建议以什么为依据？",
+      "explanation": "since 表“既然”，说明开始的原因或依据，并非“自从”。since 的功能需结合语境，不能只背一种中文意思。"
+    },
+    {
+      "id": "concession-1",
+      "module": "concession",
+      "type": "choice",
+      "level": 1,
+      "prompt": "按句意选词：虽然很累，她还是继续工作。",
+      "sentence": "___ she was tired, she kept working.",
+      "answers": [
+        "Although"
+      ],
+      "options": [
+        "Because",
+        "Although",
+        "Unless",
+        "Until"
+      ],
+      "hint": "主句结果与“累”的通常预期相反。",
+      "explanation": "Although 表让步，“虽然累仍继续工作”。Because 会把累解释为继续工作的原因，不合本题指定句意。"
+    },
+    {
+      "id": "concession-2",
+      "module": "concession",
+      "type": "choice",
+      "level": 2,
+      "prompt": "哪一句语法正确？",
+      "sentence": "选择一个规范的让步句。",
+      "answers": [
+        "Although it was cold, we still went out."
+      ],
+      "options": [
+        "Although it was cold, but we went out.",
+        "Although it was cold, we still went out.",
+        "Because it was cold, so we went out.",
+        "Although cold was, we went out."
+      ],
+      "hint": "still 是副词，不是重复连接分句的 but。",
+      "explanation": "Although 可与主句副词 still 搭配，不与 but 重复连接同一对分句。because 与 so 在第三项也重复。"
+    },
+    {
+      "id": "concession-3",
+      "module": "concession",
+      "type": "fill",
+      "level": 2,
+      "prompt": "根据句意填入一个词：尽管当时正在下雨，他们还是继续玩。（陈述事实）",
+      "sentence": "Even ___ it was raining, they continued playing.",
+      "answers": [
+        "though"
+      ],
+      "hint": "区分承认已经发生的事实与提出假设条件。",
+      "explanation": "even though 引导让步状语从句，承认当时下雨这一事实；even if 通常表达假设让步“即使”，与本题明确指定的事实语义不同。"
+    },
+    {
+      "id": "concession-4",
+      "module": "concession",
+      "type": "repair",
+      "level": 3,
+      "prompt": "只删除重复的 but；输入完整句子。",
+      "sentence": "Although he was nervous, but he gave a clear answer.",
+      "answers": [
+        "Although he was nervous, he gave a clear answer."
+      ],
+      "hint": "保留 Although 开头的从句。",
+      "explanation": "保留 Although 后，删除主句前的 but。两个连接词不能同时用于连接这一对分句；主句 he gave a clear answer 完整。"
+    },
+    {
+      "id": "purpose-result-1",
+      "module": "purpose-result",
+      "type": "choice",
+      "level": 1,
+      "prompt": "so that 在这里主要表达什么？",
+      "sentence": "She saved money so that she could buy a laptop.",
+      "answers": [
+        "目的"
+      ],
+      "options": [
+        "时间",
+        "目的",
+        "让步",
+        "条件"
+      ],
+      "hint": "存钱是为了达到什么目标？",
+      "explanation": "存钱的目的是买电脑，so that 引导目的状语从句，could buy 表预期能力，不是已经买到的结果。"
+    },
+    {
+      "id": "purpose-result-2",
+      "module": "purpose-result",
+      "type": "fill",
+      "level": 2,
+      "prompt": "用 so 或 such 填空。",
+      "sentence": "The book was ___ interesting that I read it twice.",
+      "answers": [
+        "so"
+      ],
+      "hint": "空后直接接形容词 interesting。",
+      "explanation": "so + 形容词 + that 构成结果结构；such 通常修饰名词短语，不能直接接这里的 interesting that。"
+    },
+    {
+      "id": "purpose-result-3",
+      "module": "purpose-result",
+      "type": "fill",
+      "level": 2,
+      "prompt": "用 so 或 such 填空。",
+      "sentence": "It was ___ an interesting book that I read it twice.",
+      "answers": [
+        "such"
+      ],
+      "hint": "an interesting book 是一个完整的名词短语。",
+      "explanation": "such + a/an + 形容词 + 单数可数名词 + that 表结果。不能说 so an interesting book；so 的另一种结构是 so interesting a book。"
+    },
+    {
+      "id": "purpose-result-4",
+      "module": "purpose-result",
+      "type": "choice",
+      "level": 3,
+      "prompt": "that he missed the last bus 在本句中是什么从句？",
+      "sentence": "He worked so late that he missed the last bus.",
+      "answers": [
+        "结果状语从句"
+      ],
+      "options": [
+        "定语从句",
+        "结果状语从句",
+        "同位语从句",
+        "主语从句"
+      ],
+      "hint": "识别 so ... that 结构，并看实际结果。",
+      "explanation": "so late that ... 表示工作太晚，以至于错过末班车，是结果状语从句；不是说明某个名词内容的同位语从句。"
+    }
+  ]
+}
