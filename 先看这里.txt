@@ -1,0 +1,12 @@
+本次版本
+
+网站恢复之前的卡片式排版，保留1660题和新增讲解。正式网址仍是：
+https://english-grammar-lab-904.pages.dev
+
+直接打开本目录index.html可离线学习；在线账号请使用正式网址。
+review/index.html及review/完整题库.csv仍保留完整题库清单。
+
+english-grammar-lab-v4-release.zip为本次干净发布包。GitHub如需同步，先解压，将里面的文件与文件夹上传到原仓库根目录并覆盖同名内容；不要只上传SKILL.md，也不要直接上传ZIP。
+
+work、.wrangler、数据库、账号令牌和教材扫描件不属于发布内容。原账号、错题和学习统计继续保留。
+

@@ -1,0 +1,9 @@
+storage/
+node_modules/
+.env
+*.sqlite*
+work/
+.wrangler/
+work-test-*/
+*.log
+.dev.vars*

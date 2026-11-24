@@ -1,0 +1,28 @@
+{
+  "name": "english-grammar-lab",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "start": "wrangler dev",
+    "dev": "wrangler dev",
+    "content": "node scripts/compile-course.mjs",
+    "build": "node scripts/compile-course.mjs && node scripts/build-cloudflare.mjs",
+    "test": "node scripts/audit-content.mjs && node scripts/check.mjs",
+    "test:worker": "node scripts/test-worker.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "db:local": "wrangler d1 migrations apply english-grammar-lab-db --local",
+    "db:remote": "wrangler d1 migrations apply english-grammar-lab-db --remote",
+    "start:node": "node server/server.mjs",
+    "build:pages": "node scripts/compile-course.mjs && node scripts/build-pages.mjs",
+    "deploy:pages": "npm run build:pages && wrangler --cwd pages pages deploy ../pages-output --project-name english-grammar-lab-904 --branch main",
+    "review": "node scripts/export-review.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.160.0",
+    "esbuild": "0.28.2"
+  }
+}
